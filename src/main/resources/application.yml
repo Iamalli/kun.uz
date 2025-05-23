@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: assignment-service
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/departmentdb
+    username: egov
+    password: 1
+  jpa:
+    hibernate:
+      ddl-auto: update
