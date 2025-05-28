@@ -24,14 +24,19 @@ public class Region implements Serializable {
 
     private String order_number;
     @Column(name = "NameUz")
+
     private String NameUz;
     @Column(name = "NameRU")
+
     private String NameRu;
     @Column(name = "NameEn")
+
     private String NameEn;
     @Column(name = "visible")
+
     private String visible;
     @Column(name = "created_at")
+
     private LocalDateTime created_at;
 
 
